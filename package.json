@@ -9,7 +9,12 @@
     "eslint-plugin-import": ">= 2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "find-unused": "eslint-find-rules --unused index.js",
+    "lint-fix": "eslint . --fix",
+    "preversion": "npm run --silent lint && npm run --silent find-unused",
+    "postversion": "git push && git push --tags",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -27,9 +32,13 @@
   },
   "homepage": "https://github.com/jnmorse/eslint-config-jnmorse#readme",
   "dependencies": {
-    "eslint": "^4.7.2",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-restricted-globals": "^0.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
 }
