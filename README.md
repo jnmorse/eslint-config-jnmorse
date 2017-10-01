@@ -12,12 +12,12 @@ Personal Eslint Configuration.
 
 - NPM
 ```sh
-npm i -D eslint jnmorse/eslint-config-jnmorse
+npm i -D eslint eslint-config-jnmorse
 ```
 
 - Yarn
 ```sh
-yarn add -D eslint jnmorse/eslint-config-jnmorse
+yarn add -D eslint eslint-config-jnmorse
 ```
 
 ## Configuration
