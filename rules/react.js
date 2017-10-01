@@ -35,10 +35,10 @@ module.exports = {
     // Children set to ignore till fix is found for whitespace issue
     // then should be set to always?
     'react/jsx-curly-brace-presence': [
-      'error',
+      'off',
       {
-        props: 'always',
-        children: 'ignore'
+        props: 'ignore',
+        children: 'always'
       }
     ],
     'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
