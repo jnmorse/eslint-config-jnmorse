@@ -31,11 +31,14 @@ module.exports = {
     'react/jsx-boolean-value': ['error', 'never', { always: [] }],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
     'react/jsx-closing-tag-location': 'error',
+
+    // Children set to ignore till fix is found for whitespace issue
+    // then should be set to always?
     'react/jsx-curly-brace-presence': [
       'error',
       {
         props: 'always',
-        children: 'always'
+        children: 'ignore'
       }
     ],
     'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
