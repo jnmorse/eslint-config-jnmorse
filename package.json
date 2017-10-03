@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jnmorse",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "jnmorse Personal Eslint Configuration",
   "main": "index.js",
   "peerDependencies": {
