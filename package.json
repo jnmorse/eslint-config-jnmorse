@@ -8,9 +8,9 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "find-unused": "eslint-find-rules --unused index.js",
+    "unused": "eslint-rule-finder -u index.js",
     "lint-fix": "eslint . --fix",
-    "preversion": "npm run --silent lint && npm run --silent find-unused",
+    "preversion": "npm run --silent lint && npm run --silent unused",
     "postversion": "git push && git push --tags",
     "test": "npm run lint"
   },
@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "eslint": "^4.7.2",
-    "eslint-find-rules": "^3.1.1"
+    "eslint-find-rules": "^3.1.1",
+    "eslint-rule-finder": "github:jnmorse/eslint-rule-finder"
   }
 }
