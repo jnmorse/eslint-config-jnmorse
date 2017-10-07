@@ -8,7 +8,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "unused": "eslint-rule-finder -u index.js",
+    "unused": "eslint-rule-finder --unused",
     "lint-fix": "eslint . --fix",
     "preversion": "npm run --silent lint && npm run --silent unused",
     "postversion": "git push && git push --tags",
@@ -38,6 +38,6 @@
   "devDependencies": {
     "eslint": "^4.7.2",
     "eslint-find-rules": "^3.1.1",
-    "eslint-rule-finder": "github:jnmorse/eslint-rule-finder"
+    "eslint-rule-finder": "^1.0.1"
   }
 }
