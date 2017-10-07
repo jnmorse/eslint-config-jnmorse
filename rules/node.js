@@ -10,7 +10,6 @@ module.exports = {
     'no-buffer-constructor': 'error',
     'no-mixed-requires': ['off', false],
     'no-new-require': 'error',
-    'no-console': 'off',
     'no-path-concat': 'error',
     'no-process-env': 'off',
     'no-process-exit': 'off',
