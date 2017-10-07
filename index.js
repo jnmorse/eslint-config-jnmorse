@@ -7,7 +7,8 @@ module.exports = {
     './rules/variables',
     './rules/es6',
     './rules/imports',
-    './rules/react'
+    './rules/react',
+    './rules/react-a11ly'
   ].map(require.resolve),
 
   parserOptions: {
