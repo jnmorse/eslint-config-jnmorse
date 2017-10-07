@@ -61,9 +61,9 @@ module.exports = {
       before: true,
       after: true,
       overrides: {
-        return: { after: true },
+        return: { after: false },
         throw: { after: true },
-        case: { after: true }
+        case: { after: false }
       }
     }],
     'line-comment-position': ['off', {
