@@ -1,7 +1,6 @@
 module.exports = {
   plugins: [
-    'jsx-a11y',
-    'react'
+    'jsx-a11y'
   ],
 
   parserOptions: {
