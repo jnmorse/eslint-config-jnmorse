@@ -7,7 +7,7 @@ module.exports = {
     'consistent-return': 'error',
     'class-methods-use-this': [
       'error', {
-        exceptMethods: []
+        exceptMethods: ['propTypes', 'defaultProps']
       }
     ],
     curly: 'error',
