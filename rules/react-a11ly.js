@@ -84,7 +84,7 @@ module.exports = {
       roles: ['tabpanel']
     }],
     'jsx-a11y/anchor-is-valid': ['error', {
-      components: ['Link'],
+      components: [],
       specialLink: [],
       aspects: ['noHref', 'invalidHref', 'preferButton']
     }]
