@@ -1,4 +1,4 @@
-const restrictedGlobals = require('eslint-restricted-globals');
+const restrictedGlobals = require('eslint-restricted-globals')
 
 module.exports = {
   rules: {
@@ -15,4 +15,4 @@ module.exports = {
     'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
     'no-use-before-define': ['error', { functions: true, classes: true, variables: true }]
   }
-};
+}

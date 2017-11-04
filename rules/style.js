@@ -214,4 +214,4 @@ module.exports = {
     'unicode-bom': ['error', 'never'],
     'wrap-regex': 'off'
   }
-};
+}

@@ -111,4 +111,4 @@ module.exports = {
     'template-curly-spacing': 'error',
     'yield-star-spacing': ['error', 'after']
   }
-};
+}

@@ -44,4 +44,4 @@ module.exports = {
     'valid-jsdoc': 'off',
     'valid-typeof': ['error', { requireStringLiterals: true }]
   }
-};
+}
