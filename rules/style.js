@@ -179,7 +179,7 @@ module.exports = {
     'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: false }],
     quotes: ['error', 'single', { avoidEscape: true }],
     'require-jsdoc': 'off',
-    semi: ['error', 'always'],
+    semi: ['error', 'never'],
     'semi-spacing': ['error', { before: false, after: true }],
     'semi-style': ['error', 'last'],
     'sort-keys': ['off', 'asc', { caseSensitive: false, natural: true }],
