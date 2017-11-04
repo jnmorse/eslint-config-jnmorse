@@ -89,7 +89,7 @@ module.exports = {
     'react/no-string-refs': 'error',
     'react/no-unknown-property': 'error',
     'react/prefer-es6-class': ['error', 'always'],
-    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
+    'react/prefer-stateless-function': ['off', { ignorePureComponents: true }],
     'react/prop-types': ['error', {
       ignore: [],
       customValidators: [],
