@@ -32,8 +32,10 @@ module.exports = {
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
     'react/jsx-closing-tag-location': 'error',
 
-    // Children set to ignore till fix is found for whitespace issue
-    // then should be set to always?
+    /**
+     * Children set to ignore till fix is found for whitespace issue,
+     * then should be set to always?
+     */
     'react/jsx-curly-brace-presence': [
       'off',
       {
@@ -66,7 +68,6 @@ module.exports = {
       callbacksLast: false,
       requiredFirst: false
     }],
-    'react/jsx-sort-prop-types': 'off',
     'react/jsx-sort-props': ['off', {
       ignoreCase: true,
       callbacksLast: false,

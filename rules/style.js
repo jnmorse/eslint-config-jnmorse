@@ -66,6 +66,9 @@ module.exports = {
         case: { after: false }
       }
     }],
+    'lines-between-class-members': ['error', 'always', {
+      exceptAfterSingleLine: false
+    }],
     'line-comment-position': ['off', {
       position: 'above',
       ignorePattern: '',
@@ -94,6 +97,7 @@ module.exports = {
     'max-params': ['off', 3],
     'max-statements': ['off', 10],
     'max-statements-per-line': ['off', { max: 1 }],
+    'multiline-comment-style': ['error', 'starred-block'],
     'multiline-ternary': ['off', 'never'],
     'new-cap': ['error', {
       newIsCap: true,

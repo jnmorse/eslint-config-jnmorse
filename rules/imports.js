@@ -36,6 +36,7 @@ module.exports = {
     'import/default': 'off',
     'import/namespace': 'off',
     'import/export': 'error',
+    'import/exports-last': 'error',
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
     'import/no-deprecated': 'off',
