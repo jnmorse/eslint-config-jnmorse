@@ -88,7 +88,6 @@ module.exports = {
       }
     ],
     'prefer-numeric-literals': 'error',
-    'prefer-reflect': 'off',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',

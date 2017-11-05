@@ -143,7 +143,6 @@ module.exports = {
       beforeSelfClosing: 'always',
       afterOpening: 'never'
     }],
-    'react/jsx-space-before-closing': ['off', 'always'],
     'react/no-array-index-key': 'error',
     'react/require-default-props': 'error',
     'react/forbid-foreign-prop-types': 'off',

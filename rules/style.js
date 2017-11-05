@@ -76,10 +76,6 @@ module.exports = {
     }],
     'linebreak-style': ['error', 'unix'],
     'lines-around-comment': 'off',
-    'lines-around-directive': ['error', {
-      before: 'always',
-      after: 'always'
-    }],
     'max-depth': ['off', 4],
     'max-len': ['error', 100, 2, {
       ignoreUrls: true,
@@ -106,8 +102,6 @@ module.exports = {
       capIsNewExceptions: ['Immutable.Map', 'Immutable.Set', 'Immutable.List']
     }],
     'new-parens': 'error',
-    'newline-after-var': 'off',
-    'newline-before-return': 'off',
     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
     'no-array-constructor': 'error',
     'no-bitwise': 'error',
@@ -150,7 +144,6 @@ module.exports = {
         message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
       }
     ],
-    'no-spaced-func': 'error',
     'no-tabs': 'error',
     'no-ternary': 'off',
     'no-trailing-spaces': ['error', {

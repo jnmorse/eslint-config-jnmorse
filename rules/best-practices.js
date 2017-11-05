@@ -40,7 +40,6 @@ module.exports = {
     'no-fallthrough': 'error',
     'no-floating-decimal': 'error',
     'no-global-assign': ['error', { exceptions: [] }],
-    'no-native-reassign': 'off',
     'no-implicit-coercion': [
       'off', {
         boolean: false,
