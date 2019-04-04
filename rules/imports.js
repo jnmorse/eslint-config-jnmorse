@@ -109,6 +109,18 @@ module.exports = {
         allowLiteral: false,
         allowObject: false
       }
-    ]
+    ],
+    'import/dynamic-import-chunkname': 'off', // No idea what this does or why I should care
+    'import/group-exports': 'error',
+    'import/no-cycle': ['off', { maxDepth: 1 }], // Leaving this off
+
+    // Default exports are ok
+    'import/no-default-export': 'off',
+
+    // Named exports are ok
+    'import/no-named-export': 'off',
+    'import/no-relative-parent-imports': 'error',
+    'import/no-self-import': 'error',
+    'import/no-useless-path-segments': 'error'
   }
 }
