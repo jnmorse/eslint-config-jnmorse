@@ -154,7 +154,31 @@ module.exports = {
       propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
       rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+'
     }],
-    'react/no-typos': 'off'
+    'react/no-typos': 'off',
+    'react/button-has-type': ['error', {
+      button: true,
+      submit: true,
+      reset: true
+    }],
+    'react/destructuring-assignment': [
+      'error',
+      'always',
+      {
+        ignoreClassFields: true
+      }
+    ],
+    'react/forbid-dom-props': 'off',
+    'react/jsx-child-element-spacing': 'off',
+    'react/jsx-fragments': ['error', 'syntax'],
+    'react/jsx-max-depth': ['error', { max: 4 }],
+    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
+    'react/jsx-props-no-multi-spaces': 'error',
+    'react/jsx-sort-default-props': ['off', {
+      ignoreCase: true
+    }],
+    'react/no-access-state-in-setstate': 'error',
+    'react/no-this-in-sfc': 'error',
+    'react/no-unsafe': ['error', { checkAliases: false }]
   },
 
   settings: {
