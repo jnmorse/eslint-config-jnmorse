@@ -87,6 +87,38 @@ module.exports = {
       components: [],
       specialLink: [],
       aspects: ['noHref', 'invalidHref', 'preferButton']
+    }],
+    'jsx-a11y/label-has-associated-control': ['error', {
+      labelComponents: ['CustomInputLabel'],
+      labelAttributes: ['label'],
+      controlComponents: ['CustomInput'],
+      depth: 3
+    }],
+    'jsx-a11y/control-has-associated-label': ['error', {
+      labelAttributes: ['label'],
+      controlComponents: ['CustomComponent'],
+      ignoreElements: [
+        'audio',
+        'canvas',
+        'embed',
+        'input',
+        'textarea',
+        'tr',
+        'video'
+      ],
+      ignoreRoles: [
+        'grid',
+        'listbox',
+        'menu',
+        'menubar',
+        'radiogroup',
+        'row',
+        'tablist',
+        'toolbar',
+        'tree',
+        'treegrid'
+      ],
+      depth: 3
     }]
   }
 }

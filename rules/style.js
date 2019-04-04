@@ -34,6 +34,7 @@ module.exports = {
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
+    'implicit-arrow-linebreak': ['error', 'beside'],
     indent: ['error', 2, {
       SwitchCase: 1,
       VariableDeclarator: 1,
@@ -88,6 +89,12 @@ module.exports = {
       max: 300,
       skipBlankLines: true,
       skipComments: true
+    }],
+    'max-lines-per-function': ['error', {
+      max: 50,
+      skipBlankLines: false,
+      skipComments: false,
+      IIFEs: false
     }],
     'max-nested-callbacks': 'off',
     'max-params': ['off', 3],
@@ -209,6 +216,7 @@ module.exports = {
     'switch-colon-spacing': ['error', { after: true, before: false }],
     'template-tag-spacing': ['error', 'never'],
     'unicode-bom': ['error', 'never'],
-    'wrap-regex': 'off'
+    'wrap-regex': 'off',
+    'prefer-object-spread': 'error'
   }
 }

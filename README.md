@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jnmorse/eslint-config-jnmorse.svg?branch=master)](https://travis-ci.org/jnmorse/eslint-config-jnmorse)
+
 # eslint-config-jnmorse
 
 Personal Eslint Configuration.
@@ -7,6 +9,7 @@ Personal Eslint Configuration.
 - eslint
 - eslint-plugin-react
 - eslint-plugin-import
+- eslint-plugin-react-a11y
 
 ## Install Instructions
 

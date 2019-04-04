@@ -16,6 +16,7 @@ module.exports = {
     'dot-notation': ['error', { allowKeywords: true }],
     eqeqeq: ['error', 'always', { null: 'ignore' }],
     'guard-for-in': 'error',
+    'max-classes-per-file': ['error', 1],
     'no-alert': 'warn',
     'no-caller': 'error',
     'no-case-declarations': 'error',
@@ -168,6 +169,7 @@ module.exports = {
       }
     ],
     'no-unused-labels': 'error',
+    'no-useless-catch': 'error',
     'no-useless-call': 'off',
     'no-useless-concat': 'error',
     'no-useless-escape': 'error',
@@ -197,6 +199,8 @@ module.exports = {
         functionPrototypeMethods: false
       }
     ],
-    yoda: 'error'
+    yoda: 'error',
+    'prefer-named-capture-group': 'error',
+    'require-unicode-regexp': 'error'
   }
 }
