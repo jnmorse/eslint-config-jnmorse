@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "10"
+deploy:
+  provider: npm
+  email: tamed.lionheart@gmail.com
+  api_key:
+    secure: CO9MaCtpCVafJNibehRZNm2uDrl1SsPZ/9ruE2kcusXVADXzu4GoYf4jh2iY7apTGXaIhbDqOs2fVtf/X/4kydP0cX5OaucEc4r8cVhrj0FHklJE6mjsGN/w08Z03IO2F19Hb0xuIsMLxUPoIFcc4phdBEj4CtNivCbOmp3VZLxPiQB2AtlwjIEoUjHBkhSkBNbgy6W6A/CXs8HVehpfTXv4ZHcbX6TidtMIgsg8SgO8M80rQc67ZzLYKjdrU5i6fq8qvtkL8J5jPAMbAnDequIL/tGvxnCjb5l/S8D5Lm0tzefwUvLFPJcMUVYUIsVaS8NAU4Ke2VgVjywf7xKq55pbM7d06fGJHBcczgORb3aMZl3fuTeyxQ/U21QwEn7YCTwMLjvy7oGf0KbnsJd9NPCqJrWX4VBXscvtTX/qplOlvbZ0pc55vy4AmYXHvzxsdjMAAHHr7EbAGTEiaMVKgAEVDwQ7sjOmyRxxFUdDOZcbIMSpVks4dno+XyCUodKdNRrwZnuTgar+cm1bp84t7YB5YO8KcCPtzMHyB2vKhGtnGa8M+3ap720nq4084BS3/Fr/M3aqn/gkdCxiX6BOexAafV+x+KdMza4lWp4k10iZu2NqdZu5S12eKPTRwoFe8HCG0cbOxlDjRvHv/rCuQglinAVUY1TmVbuoAyJmGyw=
+  on:
+    branch: master
+    tags: true
+    repo: jnmorse/eslint-config-jnmorse
