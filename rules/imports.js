@@ -121,6 +121,7 @@ module.exports = {
     'import/no-named-export': 'off',
     'import/no-relative-parent-imports': 'error',
     'import/no-self-import': 'error',
-    'import/no-useless-path-segments': 'error'
+    'import/no-useless-path-segments': 'error',
+    'import/no-unused-modules': 'error'
   }
 }
