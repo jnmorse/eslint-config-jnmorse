@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.2](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.1.1...v2.1.2) (2019-04-18)
+
+
+### Bug Fixes
+
+* **react-a11y:** added link to ignore elements ([4cba587](https://github.com/jnmorse/eslint-config-jnmorse/commit/4cba587))
+
+
+
 ## [2.1.1](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.1.0...v2.1.1) (2019-04-18)
 
 
