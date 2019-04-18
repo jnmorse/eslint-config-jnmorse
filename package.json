@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/jnmorse/eslint-config-jnmorse#readme",
   "dependencies": {
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-restricted-globals": "^0.2.0"
@@ -41,8 +41,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
-    "eslint-rule-finder": "^1.1.0",
-    "mocha": "^6.0.2",
+    "eslint-rule-finder": "^1.2.1",
+    "mocha": "^6.1.3",
     "standard-version": "^5.0.2"
   }
 }
