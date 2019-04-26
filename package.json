@@ -12,6 +12,7 @@
     "unused": "eslint-rule-finder --unused",
     "prerelease": "npm run lint && npm run test",
     "release": "standard-version --sign",
+    "postrelease": "git push && git push --tags",
     "lint-fix": "eslint . --fix",
     "preversion": "npm run lint && npm run test",
     "postversion": "git push && git push --tags",
