@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.4](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.1.3...v2.1.4) (2019-05-07)
+
+
+### Bug Fixes
+
+* ecmaVersion ([d965472](https://github.com/jnmorse/eslint-config-jnmorse/commit/d965472))
+* **best-practices:** prefer-named-capture-group off ([3703906](https://github.com/jnmorse/eslint-config-jnmorse/commit/3703906))
+
+
+
 ## [2.1.3](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.1.2...v2.1.3) (2019-04-26)
 
 
