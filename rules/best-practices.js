@@ -200,7 +200,7 @@ module.exports = {
       }
     ],
     yoda: 'error',
-    'prefer-named-capture-group': 'error',
+    'prefer-named-capture-group': 'off',
     'require-unicode-regexp': 'error'
   }
 }
