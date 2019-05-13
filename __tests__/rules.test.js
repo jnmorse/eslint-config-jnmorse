@@ -1,20 +1,19 @@
 const { LoadConfig, findUnused } = require('eslint-rule-finder')
-const { assert } = require('chai')
 
 let config
 
 describe('Rules', () => {
-  before(() => {
+  beforeAll(() => {
     config = new LoadConfig()
   })
 
   it('should have 0 undefined rules', () => {
     const unused = findUnused(config)
 
-    assert.isEmpty(unused)
+    expect(unused.size).toBe(0)
   })
 
   it('should have 0 deprecated rules', () => {
-    assert.isEmpty(config.deprecated)
+    expect(config.deprecated.size).toBe(0)
   })
 })
