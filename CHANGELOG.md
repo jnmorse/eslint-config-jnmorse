@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.2.0](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.1.4...v2.2.0) (2019-05-13)
+
+
+### Features
+
+* added react-hooks ([42d2f2a](https://github.com/jnmorse/eslint-config-jnmorse/commit/42d2f2a))
+
+
+
 ## [2.1.4](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.1.3...v2.1.4) (2019-05-07)
 
 
