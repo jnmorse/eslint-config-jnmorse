@@ -3,13 +3,13 @@ module.exports = {
     'accessor-pairs': 'off',
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
-    complexity: ['off', 11],
-    'consistent-return': 'error',
     'class-methods-use-this': [
       'error', {
         exceptMethods: ['propTypes', 'defaultProps']
       }
     ],
+    complexity: ['off', 11],
+    'consistent-return': 'error',
     curly: 'error',
     'default-case': 'error',
     'dot-location': ['error', 'property'],
@@ -43,10 +43,10 @@ module.exports = {
     'no-global-assign': ['error', { exceptions: [] }],
     'no-implicit-coercion': [
       'off', {
+        allow: [],
         boolean: false,
         number: true,
-        string: true,
-        allow: []
+        string: true
       }
     ],
     'no-implicit-globals': 'off',
@@ -65,10 +65,10 @@ module.exports = {
     'no-magic-numbers': [
       'off',
       {
-        ignore: [],
-        ignoreArrayIndexes: true,
+        detectObjects: false,
         enforceConst: true,
-        detectObjects: false
+        ignore: [],
+        ignoreArrayIndexes: true
       }
     ],
     'no-multi-spaces': [
@@ -86,7 +86,6 @@ module.exports = {
     'no-param-reassign': [
       'error',
       {
-        props: true,
         ignorePropertyModificationsFor: [
           'acc',
           'e',
@@ -96,7 +95,8 @@ module.exports = {
           'res',
           'response',
           '$scope'
-        ]
+        ],
+        props: true
       }
     ],
     'no-proto': 'error',
@@ -104,52 +104,52 @@ module.exports = {
     'no-restricted-properties': [
       'error',
       {
+        message: 'arguments.callee is deprecated',
         object: 'arguments',
-        property: 'callee',
-        message: 'arguments.callee is deprecated'
+        property: 'callee'
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'global',
-        property: 'isFinite',
-        message: 'Please use Number.isFinite instead'
+        property: 'isFinite'
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'self',
-        property: 'isFinite',
-        message: 'Please use Number.isFinite instead'
+        property: 'isFinite'
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'window',
-        property: 'isFinite',
-        message: 'Please use Number.isFinite instead'
+        property: 'isFinite'
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'global',
-        property: 'isNaN',
-        message: 'Please use Number.isNaN instead'
+        property: 'isNaN'
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'self',
-        property: 'isNaN',
-        message: 'Please use Number.isNaN instead'
+        property: 'isNaN'
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'window',
-        property: 'isNaN',
-        message: 'Please use Number.isNaN instead'
+        property: 'isNaN'
       },
       {
-        property: '__defineGetter__',
-        message: 'Please use Object.defineProperty instead.'
+        message: 'Please use Object.defineProperty instead.',
+        property: '__defineGetter__'
       },
       {
-        property: '__defineSetter__',
-        message: 'Please use Object.defineProperty instead.'
+        message: 'Please use Object.defineProperty instead.',
+        property: '__defineSetter__'
       },
       {
+        message: 'Use the exponentiation operator (**) instead.',
         object: 'Math',
-        property: 'pow',
-        message: 'Use the exponentiation operator (**) instead.'
+        property: 'pow'
       }
     ],
     'no-return-assign': ['error', 'always'],
@@ -164,13 +164,13 @@ module.exports = {
       'error',
       {
         allowShortCircuit: false,
-        allowTernary: false,
-        allowTaggedTemplates: false
+        allowTaggedTemplates: false,
+        allowTernary: false
       }
     ],
     'no-unused-labels': 'error',
-    'no-useless-catch': 'error',
     'no-useless-call': 'off',
+    'no-useless-catch': 'error',
     'no-useless-concat': 'error',
     'no-useless-escape': 'error',
     'no-useless-return': 'error',
@@ -178,11 +178,12 @@ module.exports = {
     'no-warning-comments': [
       'off',
       {
-        terms: ['todo', 'fixme', 'xxx'],
-        location: 'start'
+        location: 'start',
+        terms: ['todo', 'fixme', 'xxx']
       }
     ],
     'no-with': 'error',
+    'prefer-named-capture-group': 'off',
     'prefer-promise-reject-errors': [
       'error',
       {
@@ -191,6 +192,7 @@ module.exports = {
     ],
     radix: 'error',
     'require-await': 'off',
+    'require-unicode-regexp': 'error',
     'vars-on-top': 'error',
     'wrap-iife': [
       'error',
@@ -199,8 +201,6 @@ module.exports = {
         functionPrototypeMethods: false
       }
     ],
-    yoda: 'error',
-    'prefer-named-capture-group': 'off',
-    'require-unicode-regexp': 'error'
+    yoda: 'error'
   }
 }

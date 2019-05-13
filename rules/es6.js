@@ -4,12 +4,12 @@ module.exports = {
   },
 
   parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
     ecmaFeatures: {
       generators: false,
       objectLiteralDuplicateProperties: false
-    }
+    },
+    ecmaVersion: 6,
+    sourceType: 'module'
   },
 
   rules: {
@@ -27,9 +27,9 @@ module.exports = {
         requireForBlockBody: true
       }
     ],
-    'arrow-spacing': ['error', { before: true, after: true }],
+    'arrow-spacing': ['error', { after: true, before: true }],
     'constructor-super': 'error',
-    'generator-star-spacing': ['error', { before: false, after: true }],
+    'generator-star-spacing': ['error', { after: true, before: false }],
     'no-class-assign': 'error',
     'no-confusing-arrow': ['error', { allowParens: true }],
     'no-const-assign': 'error',
@@ -44,8 +44,8 @@ module.exports = {
       'error',
       {
         ignoreDestructuring: false,
-        ignoreImport: false,
-        ignoreExport: false
+        ignoreExport: false,
+        ignoreImport: false
       }
     ],
     'no-var': 'error',
@@ -53,8 +53,8 @@ module.exports = {
       'error',
       'always',
       {
-        ignoreConstructors: false,
-        avoidQuotes: true
+        avoidQuotes: true,
+        ignoreConstructors: false
       }
     ],
     'prefer-arrow-callback': [
@@ -74,13 +74,13 @@ module.exports = {
     'prefer-destructuring': [
       'error',
       {
-        VariableDeclarator: {
-          array: false,
-          object: true
-        },
         AssignmentExpression: {
           array: true,
           object: false
+        },
+        VariableDeclarator: {
+          array: false,
+          object: true
         }
       },
       {

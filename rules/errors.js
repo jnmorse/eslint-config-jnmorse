@@ -21,10 +21,10 @@ module.exports = {
       'off',
       'all', {
         conditionalAssign: false,
-        nestedBinaryExpress: false,
-        returnAssign: false,
+        enforceForArrowConditionals: false,
         ignoreJSX: 'all',
-        enforceForArrowConditionals: false
+        nestedBinaryExpress: false,
+        returnAssign: false
       }
     ],
     'no-extra-semi': 'error',
@@ -32,6 +32,7 @@ module.exports = {
     'no-inner-declarations': 'error',
     'no-invalid-regexp': 'error',
     'no-irregular-whitespace': 'error',
+    'no-misleading-character-class': 'error',
     'no-obj-calls': 'error',
     'no-prototype-builtins': 'off',
     'no-regex-spaces': 'error',
@@ -41,10 +42,8 @@ module.exports = {
     'no-unreachable': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
+    'require-atomic-updates': 'error',
     'use-isnan': 'error',
-    'valid-jsdoc': 'off',
-    'valid-typeof': ['error', { requireStringLiterals: true }],
-    'no-misleading-character-class': 'error',
-    'require-atomic-updates': 'error'
+    'valid-typeof': ['error', { requireStringLiterals: true }]
   }
 }

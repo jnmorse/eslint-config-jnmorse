@@ -10,36 +10,47 @@ module.exports = {
 
   plugins: ['import'],
 
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.json']
-      }
-    },
-    'import/extensions': ['.js', '.jsx'],
-    'import/core-modules': [],
-    'import/ignore': [
-      'node_modules',
-      '\\.(coffee|scss|css|less|hbs|svg|json)$'
-    ]
-  },
-
   rules: {
-    'import/no-unresolved': [
-      'error',
-      {
-        commonjs: true,
-        caseSensitive: true
-      }
-    ],
-    'import/named': 'off',
     'import/default': 'off',
-    'import/namespace': 'off',
+    'import/dynamic-import-chunkname': 'off', // No idea what this does or why I should care
     'import/export': 'error',
     'import/exports-last': 'error',
-    'import/no-named-as-default': 'error',
-    'import/no-named-as-default-member': 'error',
+    'import/extensions': [
+      'error',
+      'always',
+      {
+        js: 'never',
+        jsx: 'never'
+      }
+    ],
+    'import/first': ['error', 'absolute-first'],
+    'import/group-exports': 'error',
+    'import/max-dependencies': ['off', { max: 10 }],
+    'import/named': 'off',
+    'import/namespace': 'off',
+    'import/newline-after-import': 'error',
+    'import/no-absolute-path': 'error',
+    'import/no-amd': 'error',
+    'import/no-anonymous-default-export': [
+      'off',
+      {
+        allowAnonymousClass: false,
+        allowAnonymousFunction: false,
+        allowArray: false,
+        allowArrowFunction: false,
+        allowLiteral: false,
+        allowObject: false
+      }
+    ],
+    'import/no-commonjs': 'off',
+    'import/no-cycle': ['off', { maxDepth: 1 }], // Leaving this off
+
+    // Default exports are ok
+    'import/no-default-export': 'off',
+
     'import/no-deprecated': 'off',
+    'import/no-duplicates': 'error',
+    'import/no-dynamic-require': 'error',
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -65,22 +76,32 @@ module.exports = {
         optionalDependencies: false
       }
     ],
+    'import/no-internal-modules': ['off', { allow: [] }],
     'import/no-mutable-exports': 'error',
-    'import/no-commonjs': 'off',
-    'import/no-amd': 'error',
-    'import/no-nodejs-modules': 'off',
-    'import/first': ['error', 'absolute-first'],
-    // 'import/imports-first': 'off'
-    'import/no-duplicates': 'error',
+    'import/no-named-as-default': 'error',
+    'import/no-named-as-default-member': 'error',
+    'import/no-named-default': 'error',
+    'import/no-named-export': 'off',
     'import/no-namespace': 'off',
-    'import/extensions': [
+    'import/no-nodejs-modules': 'off',
+    'import/no-relative-parent-imports': 'error',
+    'import/no-restricted-paths': 'off',
+    'import/no-self-import': 'error',
+    'import/no-unassigned-import': 'off',
+    'import/no-unresolved': [
       'error',
-      'always',
       {
-        js: 'never',
-        jsx: 'never'
+        caseSensitive: true,
+        commonjs: true
       }
     ],
+    'import/no-unused-modules': 'error',
+
+    // Named exports are ok
+    'import/no-useless-path-segments': 'error',
+
+    'import/no-webpack-loader-syntax': 'error',
+
     'import/order': [
       'off',
       {
@@ -88,40 +109,22 @@ module.exports = {
         'newlines-between': 'never'
       }
     ],
-    'import/newline-after-import': 'error',
+
     'import/prefer-default-export': 'error',
-    'import/no-restricted-paths': 'off',
-    'import/max-dependencies': ['off', { max: 10 }],
-    'import/no-absolute-path': 'error',
-    'import/no-dynamic-require': 'error',
-    'import/no-internal-modules': ['off', { allow: [] }],
-    'import/unambiguous': 'off',
-    'import/no-webpack-loader-syntax': 'error',
-    'import/no-unassigned-import': 'off',
-    'import/no-named-default': 'error',
-    'import/no-anonymous-default-export': [
-      'off',
-      {
-        allowArray: false,
-        allowArrowFunction: false,
-        allowAnonymousClass: false,
-        allowAnonymousFunction: false,
-        allowLiteral: false,
-        allowObject: false
-      }
+    'import/unambiguous': 'off'
+  },
+
+  settings: {
+    'import/core-modules': [],
+    'import/extensions': ['.js', '.jsx'],
+    'import/ignore': [
+      'node_modules',
+      '\\.(coffee|scss|css|less|hbs|svg|json)$'
     ],
-    'import/dynamic-import-chunkname': 'off', // No idea what this does or why I should care
-    'import/group-exports': 'error',
-    'import/no-cycle': ['off', { maxDepth: 1 }], // Leaving this off
-
-    // Default exports are ok
-    'import/no-default-export': 'off',
-
-    // Named exports are ok
-    'import/no-named-export': 'off',
-    'import/no-relative-parent-imports': 'error',
-    'import/no-self-import': 'error',
-    'import/no-useless-path-segments': 'error',
-    'import/no-unused-modules': 'error'
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.json']
+      }
+    }
   }
 }

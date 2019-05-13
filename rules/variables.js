@@ -3,7 +3,6 @@ const restrictedGlobals = require('eslint-restricted-globals')
 module.exports = {
   rules: {
     'init-declarations': 'off',
-    'no-catch-shadow': 'off',
     'no-delete-var': 'error',
     'no-label-var': 'error',
     'no-restricted-globals': ['error', 'isFinite', 'isNaN'].concat(restrictedGlobals),
@@ -12,7 +11,15 @@ module.exports = {
     'no-undef': 'error',
     'no-undef-init': 'error',
     'no-undefined': 'off',
-    'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
-    'no-use-before-define': ['error', { functions: true, classes: true, variables: true }]
+    'no-unused-vars': ['error', {
+      args: 'after-used',
+      ignoreRestSiblings: true,
+      vars: 'all'
+    }],
+    'no-use-before-define': ['error', {
+      classes: true,
+      functions: true,
+      variables: true
+    }]
   }
 }

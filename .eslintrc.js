@@ -12,5 +12,9 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     }
+  },
+
+  rules: {
+    'sort-keys': 'error'
   }
 };
