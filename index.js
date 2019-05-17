@@ -11,6 +11,14 @@ module.exports = {
     './rules/react-a11ly'
   ].map(require.resolve),
 
+  // override placeholder case needed later
+  overrides: [
+    {
+      files: ['*.test.js', '*.spec.js', 'setupTest.js'],
+      rules: {}
+    }
+  ],
+
   parserOptions: {
     ecmaVersion: 9,
     sourceType: 'module'
