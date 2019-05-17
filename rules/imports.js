@@ -63,6 +63,7 @@ module.exports = {
           'test-*.{js,jsx}', // repos with multiple top-level test files
           '**/*.{test,spec}.{js,jsx}', // tests where the extension denotes that it is a test
           '**/jest.config.js', // jest config
+          '**/setupTests.js', // jest test setup
           '**/webpack.config.js', // webpack config
           '**/webpack.config.*.js', // webpack config
           '**/rollup.config.js', // rollup config
