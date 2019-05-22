@@ -111,7 +111,7 @@ module.exports = {
       }
     ],
 
-    'import/prefer-default-export': 'error',
+    'import/prefer-default-export': 'warn',
     'import/unambiguous': 'off'
   },
 
