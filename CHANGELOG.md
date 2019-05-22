@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.3](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.2.2...v2.2.3) (2019-05-22)
+
+
+### Bug Fixes
+
+* **prefer-default-export:** switched to warning ([a40b3fa](https://github.com/jnmorse/eslint-config-jnmorse/commit/a40b3fa))
+* added babel-eslint parser ([f09dd6b](https://github.com/jnmorse/eslint-config-jnmorse/commit/f09dd6b))
+
+
+
 ## [2.2.2](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.2.1...v2.2.2) (2019-05-17)
 
 
