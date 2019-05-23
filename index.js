@@ -15,7 +15,9 @@ module.exports = {
   overrides: [
     {
       files: ['*.test.js', '*.spec.js', 'setupTest.js'],
-      rules: {}
+      rules: {
+        'max-lines-per-function': 'off'
+      }
     }
   ],
 
