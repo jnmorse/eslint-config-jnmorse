@@ -19,7 +19,8 @@ module.exports = {
     'no-extra-boolean-cast': 'error',
     'no-extra-parens': [
       'off',
-      'all', {
+      'all',
+      {
         conditionalAssign: false,
         enforceForArrowConditionals: false,
         ignoreJSX: 'all',

@@ -4,7 +4,8 @@ module.exports = {
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
     'class-methods-use-this': [
-      'error', {
+      'error',
+      {
         exceptMethods: ['propTypes', 'defaultProps']
       }
     ],
@@ -25,11 +26,7 @@ module.exports = {
     'no-empty-function': [
       'error',
       {
-        allow: [
-          'arrowFunctions',
-          'functions',
-          'methods'
-        ]
+        allow: ['arrowFunctions', 'functions', 'methods']
       }
     ],
     'no-empty-pattern': 'error',
@@ -42,7 +39,8 @@ module.exports = {
     'no-floating-decimal': 'error',
     'no-global-assign': ['error', { exceptions: [] }],
     'no-implicit-coercion': [
-      'off', {
+      'off',
+      {
         allow: [],
         boolean: false,
         number: true,

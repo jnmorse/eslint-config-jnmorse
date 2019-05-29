@@ -8,7 +8,8 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/react',
-    './rules/react-a11ly'
+    './rules/react-a11ly',
+    './rules/prettier.js'
   ].map(require.resolve),
 
   // override placeholder case needed later
@@ -27,6 +28,8 @@ module.exports = {
     ecmaVersion: 9,
     sourceType: 'module'
   },
+
+  plugins: ['prettier'],
 
   rules: {
     strict: ['error', 'never']

@@ -23,13 +23,14 @@ module.exports = {
 
     'arrow-parens': [
       'error',
-      'as-needed', {
+      'as-needed',
+      {
         requireForBlockBody: true
       }
     ],
     'arrow-spacing': ['error', { after: true, before: true }],
     'constructor-super': 'error',
-    'generator-star-spacing': ['error', { after: true, before: false }],
+    'generator-star-spacing': ['error', { after: false, before: true }],
     'no-class-assign': 'error',
     'no-confusing-arrow': ['error', { allowParens: true }],
     'no-const-assign': 'error',
@@ -98,12 +99,7 @@ module.exports = {
       {
         ignoreCase: false,
         ignoreMemberSort: false,
-        memberSyntaxSortOrder: [
-          'none',
-          'all',
-          'multiple',
-          'single'
-        ]
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
       }
     ],
     'symbol-description': 'error',
