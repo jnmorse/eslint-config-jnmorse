@@ -14,6 +14,18 @@ describe('Rules', () => {
   })
 
   it('should have 0 deprecated rules', () => {
-    expect(config.deprecated.size).toBe(0)
+    const { currentRules, rules } = config
+
+    const deprecated = []
+
+    currentRules.forEach((value, rule) => {
+      const definition = rules.get(rule)
+
+      if (definition.meta && definition.meta.deprecated) {
+        deprecated.push(rule)
+      }
+    })
+
+    expect(deprecated).toHaveLength(0)
   })
 })
