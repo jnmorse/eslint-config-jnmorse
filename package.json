@@ -14,7 +14,7 @@
     "prerelease": "npm run lint && npm run test",
     "release": "standard-version --sign",
     "postrelease": "git push && git push --tags",
-    "postinstall": "cp .prettierrc $INIT_CWD",
+    "postinstall": "node ./post-install.js",
     "lint-fix": "eslint . --fix",
     "preversion": "npm run lint && npm run test",
     "postversion": "git push && git push --tags",
@@ -45,6 +45,7 @@
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.6.0",
     "eslint-restricted-globals": "^0.2.0",
+    "gently-copy": "^3.2.0",
     "prettier": "^1.17.1"
   },
   "devDependencies": {
