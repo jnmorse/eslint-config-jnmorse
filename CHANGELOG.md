@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.3.0](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.2.3...v2.3.0) (2019-05-30)
+
+
+### Bug Fixes
+
+* **overrides:** turn off max-lines-per-function ([784bec1](https://github.com/jnmorse/eslint-config-jnmorse/commit/784bec1))
+
+
+### Features
+
+* **prettier:** attempting to add prettier ([cd39ed1](https://github.com/jnmorse/eslint-config-jnmorse/commit/cd39ed1))
+
+
+
 ## [2.2.3](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.2.2...v2.2.3) (2019-05-22)
 
 
