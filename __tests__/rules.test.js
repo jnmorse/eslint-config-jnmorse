@@ -14,18 +14,8 @@ describe('Rules', () => {
   })
 
   it('should have 0 deprecated rules', () => {
-    const { currentRules, rules } = config
+    const { deprecated } = config
 
-    const deprecated = []
-
-    currentRules.forEach((value, rule) => {
-      const definition = rules.get(rule)
-
-      if (definition.meta && definition.meta.deprecated) {
-        deprecated.push(rule)
-      }
-    })
-
-    expect(deprecated).toHaveLength(0)
+    expect(deprecated).toEqual(new Map())
   })
 })
