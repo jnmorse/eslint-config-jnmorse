@@ -179,6 +179,14 @@ module.exports = {
       }
     ],
     'react/jsx-props-no-multi-spaces': 'error',
+    'react/jsx-props-no-spreading': [
+      'off',
+      {
+        custom: 'ignore',
+        exceptions: [],
+        html: 'ignore'
+      }
+    ],
     'react/jsx-sort-default-props': [
       'off',
       {
@@ -256,6 +264,7 @@ module.exports = {
     'react/no-unused-state': 'off',
     'react/no-will-update-set-state': 'error',
     'react/prefer-es6-class': ['error', 'always'],
+    'react/prefer-read-only-props': 'warn', // typescript rule?
     'react/prefer-stateless-function': [
       'off',
       {
@@ -304,6 +313,8 @@ module.exports = {
         requiredFirst: false
       }
     ],
+    'react/state-in-constructor': ['error', 'never'],
+    'react/static-property-placement': ['warn', 'static getter'],
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error'
   },
