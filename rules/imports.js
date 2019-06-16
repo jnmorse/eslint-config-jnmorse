@@ -86,7 +86,7 @@ module.exports = {
     'import/no-named-export': 'off',
     'import/no-namespace': 'off',
     'import/no-nodejs-modules': 'off',
-    'import/no-relative-parent-imports': 'error',
+    'import/no-relative-parent-imports': 'off',
     'import/no-restricted-paths': 'off',
     'import/no-self-import': 'error',
     'import/no-unassigned-import': 'off',
