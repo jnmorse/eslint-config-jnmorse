@@ -72,7 +72,8 @@ module.exports = {
           '**/gulpfile.*.js', // gulp config
           '**/Gruntfile{,.js}', // grunt config
           '**/protractor.conf.js', // protractor config
-          '**/protractor.conf.*.js' // protractor config
+          '**/protractor.conf.*.js', // protractor config
+          'webpack/**/*.js' // Webpack config
         ],
         optionalDependencies: false
       }
