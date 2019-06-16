@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.1](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.4.0...v2.4.1) (2019-06-16)
+
+
+### Bug Fixes
+
+* **arrow-parens:** changed required for block body ([b0af5b3](https://github.com/jnmorse/eslint-config-jnmorse/commit/b0af5b3))
+* **import:** added webpack folder exception ([2cbf50b](https://github.com/jnmorse/eslint-config-jnmorse/commit/2cbf50b))
+* **import/group-exports:** turning this rule off ([3a4aecf](https://github.com/jnmorse/eslint-config-jnmorse/commit/3a4aecf))
+* **import/no-relative-parent-imports:** set to off ([168b10c](https://github.com/jnmorse/eslint-config-jnmorse/commit/168b10c))
+* **prettier:** updated config ([8aa4de7](https://github.com/jnmorse/eslint-config-jnmorse/commit/8aa4de7))
+* **prettier:** updated prettier ([082c643](https://github.com/jnmorse/eslint-config-jnmorse/commit/082c643))
+
+
+
 ## [2.4.0](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.3.1...v2.4.0) (2019-06-06)
 
 
