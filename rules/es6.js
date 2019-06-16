@@ -25,7 +25,7 @@ module.exports = {
       'error',
       'as-needed',
       {
-        requireForBlockBody: true
+        requireForBlockBody: false
       }
     ],
     'arrow-spacing': ['error', { after: true, before: true }],
