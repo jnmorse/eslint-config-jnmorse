@@ -24,7 +24,7 @@ module.exports = {
       }
     ],
     'import/first': ['error', 'absolute-first'],
-    'import/group-exports': 'error',
+    'import/group-exports': 'off',
     'import/max-dependencies': ['off', { max: 10 }],
     'import/named': 'off',
     'import/namespace': 'off',
