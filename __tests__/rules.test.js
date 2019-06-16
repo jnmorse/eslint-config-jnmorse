@@ -8,8 +8,9 @@ describe('Rules', () => {
   })
 
   it('should have 0 undefined rules', () => {
-    const unused = findUnused(config)
+    const unused = findUnused(config, false)
 
+    expect(unused).toEqual(new Map())
     expect(unused.size).toBe(0)
   })
 
