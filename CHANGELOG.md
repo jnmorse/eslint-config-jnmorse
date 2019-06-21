@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.2](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.4.1...v2.4.2) (2019-06-21)
+
+
+### Bug Fixes
+
+* **prettier:** alternative prettier config ([0e4c679](https://github.com/jnmorse/eslint-config-jnmorse/commit/0e4c679))
+
+
+
 ### [2.4.1](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.4.0...v2.4.1) (2019-06-16)
 
 
