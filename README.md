@@ -1,8 +1,8 @@
+# eslint-config-jnmorse
+
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Build Status](https://travis-ci.org/jnmorse/eslint-config-jnmorse.svg?branch=master)](https://travis-ci.org/jnmorse/eslint-config-jnmorse)
-
-# eslint-config-jnmorse
 
 Personal Eslint Configuration.
 
@@ -15,19 +15,24 @@ Personal Eslint Configuration.
 
 ## Install Instructions
 
-- NPM
+### NPM
+
 ```sh
 npm i -D eslint eslint-config-jnmorse
 ```
 
-- Yarn
+### Yarn
+
 ```sh
 yarn add -D eslint eslint-config-jnmorse
 ```
 
 ## Configuration
 
-*.eslintrc.json*
+Setup configuration file
+
+### `.eslintrc.json`
+
 ```json
 {
   "extends": ["jnmorse"],
