@@ -24,7 +24,6 @@
   "main": "index.js",
   "scripts": {
     "current": "eslint-rule-finder --current",
-    "postinstall": "node ./post-install.js",
     "lint": "eslint .",
     "prerelease": "npm run lint && npm run test",
     "release": "standard-version --sign",
@@ -42,7 +41,6 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
     "eslint-restricted-globals": "^0.2.0",
-    "gently-copy": "^3.2.0",
     "prettier": "^1.18.2"
   },
   "devDependencies": {
