@@ -22,12 +22,9 @@
     "url": "https://github.com/jnmorse"
   },
   "main": "index.js",
-  "files": [
-    "index.js",
-    "prettier.config.js"
-  ],
   "scripts": {
     "current": "eslint-rule-finder --current",
+    "postinstall": "node ./post-install.js",
     "lint": "eslint .",
     "prerelease": "npm run lint && npm run test",
     "release": "standard-version --sign",
@@ -37,7 +34,6 @@
     "unused": "eslint-rule-finder --unused"
   },
   "dependencies": {
-    "@jnmorse/prettier-config": "0.0.1",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-import": "^2.17.3",
