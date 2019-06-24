@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.4.4...v2.5.0) (2019-06-24)
+
+
+### Features
+
+* **rules:** changed semi rule to use semicolons ([01a7e36](https://github.com/jnmorse/eslint-config-jnmorse/commit/01a7e36))
+* **rules-react:** added rule jsx-curly-newline ([23b6285](https://github.com/jnmorse/eslint-config-jnmorse/commit/23b6285))
+
+
+
 ### [2.4.4](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.4.3...v2.4.4) (2019-06-21)
 
 
