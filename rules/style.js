@@ -333,7 +333,7 @@ module.exports = {
         avoidEscape: true
       }
     ],
-    semi: ['error', 'never'],
+    semi: ['error', 'always'],
     'semi-spacing': [
       'error',
       {

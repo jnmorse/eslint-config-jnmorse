@@ -1,5 +1,5 @@
-const core = require('./core')
-const react = require('./react')
+const core = require('./core');
+const react = require('./react');
 
 const prettier = {
   plugins: ['prettier'],
@@ -16,7 +16,7 @@ const prettier = {
         jsxSingleQuote: false,
         printWidth: 80,
         quoteProps: 'as-needed',
-        semi: false,
+        semi: true,
         singleQuote: true,
         tabWidth: 2,
         trailingComma: 'none',
@@ -24,6 +24,6 @@ const prettier = {
       }
     ]
   }
-}
+};
 
-module.exports = prettier
+module.exports = prettier;
