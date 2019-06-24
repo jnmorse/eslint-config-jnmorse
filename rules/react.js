@@ -103,6 +103,10 @@ module.exports = {
         props: 'ignore'
       }
     ],
+    'react/jsx-curly-newline': [
+      'error',
+      { multiline: 'require', singleline: 'forbid' }
+    ],
     'react/jsx-curly-spacing': [
       'error',
       'never',
