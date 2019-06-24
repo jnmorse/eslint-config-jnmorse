@@ -1,4 +1,4 @@
-const restrictedGlobals = require('eslint-restricted-globals')
+const restrictedGlobals = require('eslint-restricted-globals');
 
 module.exports = {
   rules: {
@@ -30,4 +30,4 @@ module.exports = {
       }
     ]
   }
-}
+};
