@@ -14,7 +14,7 @@ module.exports = {
     'import/default': 'off',
     'import/dynamic-import-chunkname': 'off', // No idea what this does or why I should care
     'import/export': 'error',
-    'import/exports-last': 'error',
+    'import/exports-last': 'off',
     'import/extensions': [
       'error',
       'always',
@@ -119,7 +119,7 @@ module.exports = {
       }
     ],
 
-    'import/prefer-default-export': 'warn',
+    'import/prefer-default-export': 'off',
     'import/unambiguous': 'off'
   },
 
