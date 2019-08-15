@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jnmorse",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "jnmorse Personal Eslint Configuration",
   "keywords": [
     "config",

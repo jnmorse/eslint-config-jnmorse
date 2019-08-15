@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.5.1](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.5.0...v2.5.1) (2019-08-15)
+
+
+### Bug Fixes
+
+* **import:** turn off export-last and prefer-default ([64de748](https://github.com/jnmorse/eslint-config-jnmorse/commit/64de748))
+
 ## [2.5.0](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.4.4...v2.5.0) (2019-06-24)
 
 
