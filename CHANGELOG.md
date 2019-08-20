@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.5.1...v2.6.0) (2019-08-20)
+
+
+### Features
+
+* **style:** added function-call-argument-newline rule ([4a4c4fa](https://github.com/jnmorse/eslint-config-jnmorse/commit/4a4c4fa))
+
 ### [2.5.1](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.5.0...v2.5.1) (2019-08-15)
 
 
