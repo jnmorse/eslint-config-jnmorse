@@ -67,6 +67,7 @@ module.exports = {
     ],
     'func-names': 'warn',
     'func-style': ['off', 'expression'],
+    'function-call-argument-newline': ['error', 'consistent'],
     'function-paren-newline': ['error', 'multiline'],
     'id-blacklist': 'off',
     'id-length': 'off',
