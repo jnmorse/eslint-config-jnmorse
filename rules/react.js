@@ -318,7 +318,7 @@ module.exports = {
       }
     ],
     'react/state-in-constructor': ['error', 'never'],
-    'react/static-property-placement': ['warn', 'static getter'],
+    'react/static-property-placement': ['warn', 'static public field'],
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error'
   },
