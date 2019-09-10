@@ -14,7 +14,7 @@ function getErrors(fileToTest) {
 
 describe('Validate ESLint config', () => {
   const files = ['class-property.js'];
-  files.forEach(file => {
+  files.forEach((file) => {
     test(`the loaded source file ${file} in ESLint to validate all rules are correct`, () => {
       expect(getErrors(file).results[0].messages).toEqual([]);
     });
