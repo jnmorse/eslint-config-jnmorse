@@ -23,7 +23,7 @@ module.exports = {
 
     'arrow-parens': [
       'error',
-      'as-needed',
+      'always',
       {
         requireForBlockBody: false
       }

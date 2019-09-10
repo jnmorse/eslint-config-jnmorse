@@ -9,7 +9,7 @@ const prettier = {
     'prettier/prettier': [
       'error',
       {
-        arrowParens: 'avoid',
+        arrowParens: 'always',
         bracketSpacing: true,
         endOfLine: 'lf',
         jsxBracketSameLine: false,
