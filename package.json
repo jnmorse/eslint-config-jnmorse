@@ -3,7 +3,7 @@
   "version": "2.6.1",
   "description": "jnmorse Personal Eslint Configuration",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/jnmorse"
+    "registry": "https://npm.pkg.github.com/@jnmorse"
   },
   "keywords": [
     "config",
