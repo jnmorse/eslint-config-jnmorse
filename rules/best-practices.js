@@ -13,6 +13,7 @@ module.exports = {
     'consistent-return': 'error',
     curly: 'error',
     'default-case': 'error',
+    'default-param-last': 'error',
     'dot-location': ['error', 'property'],
     'dot-notation': ['error', { allowKeywords: true }],
     eqeqeq: ['error', 'always', { null: 'ignore' }],
