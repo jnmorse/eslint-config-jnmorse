@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.6.1...v2.7.0) (2019-09-26)
+
+
+### Bug Fixes
+
+* added always to arrow-parens ([400796e](https://github.com/jnmorse/eslint-config-jnmorse/commit/400796e))
+
+
+### Features
+
+* **rule:** added default-param-last as error ([b45db4e](https://github.com/jnmorse/eslint-config-jnmorse/commit/b45db4e))
+* **rule:** added no-import-assign and set to error ([93e0291](https://github.com/jnmorse/eslint-config-jnmorse/commit/93e0291))
+* **rule:** prefer-regex-literals set to warning ([3320396](https://github.com/jnmorse/eslint-config-jnmorse/commit/3320396))
+
 ### [2.6.1](https://github.com/jnmorse/eslint-config-jnmorse/compare/v2.6.0...v2.6.1) (2019-08-30)
 
 
