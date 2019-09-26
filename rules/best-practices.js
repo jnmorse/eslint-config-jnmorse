@@ -189,6 +189,7 @@ module.exports = {
         allowEmptyReject: true
       }
     ],
+    'prefer-regex-literals': 'warn',
     radix: 'error',
     'require-await': 'off',
     'require-unicode-regexp': 'error',
