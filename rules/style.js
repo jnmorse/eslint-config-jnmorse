@@ -317,6 +317,7 @@ module.exports = {
       }
     ],
     'padding-line-between-statements': 'off',
+    'prefer-exponentiation-operator': 'error',
     'prefer-object-spread': 'error',
     'quote-props': [
       'error',
