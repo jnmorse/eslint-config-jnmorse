@@ -81,6 +81,7 @@ module.exports = {
         forbid: ['any', 'array', 'object']
       }
     ],
+    'react/function-component-definition': 'off',
     'react/jsx-boolean-value': [
       'error',
       'never',
@@ -167,6 +168,15 @@ module.exports = {
         noStrings: true
       }
     ],
+    'react/jsx-no-script-url': [
+      'warn',
+      [
+        {
+          name: 'Link',
+          props: ['to']
+        }
+      ]
+    ],
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
     'react/jsx-no-useless-fragment': 'error',
@@ -229,6 +239,7 @@ module.exports = {
       }
     ],
     'react/no-access-state-in-setstate': 'error',
+    'react/no-adjacent-inline-elements': 'warn',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
     'react/no-danger': 'warn',
